@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>BhimadBazar</title>
+        <title>DhadingSamaj</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         
-    
+        
+        <link rel="stylesheet" type="text/css" href="css/font.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         
 
@@ -26,20 +27,21 @@
             </button>
             <div class="collapse navbar-collapse mt-4 mb-4" id = "navbarResponsive">
                 <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item pl-3 active">
+                    <li class="nav-item pl-3">
                         <a class="nav-link " href="index.html">Home</a>
                     </li>
                     <li class="nav-item pl-3 dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Explore
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="nav-link dropdown-item" href="destinationlist.html">Destination Listing</a>
+                            <a class="nav-link dropdown-item " href="destinationlist.html">Destination Listing</a>
                             <div class="dropdown-divider"></div>
-                            <a class="nav-link dropdown-item " href="businesslist.html">Business Listing</a>
+                            <a class="nav-link dropdown-item active" href="businesslist.html">Business Listing</a>
                             <div class="dropdown-divider"></div>
                            
                           </div>
+                        
                     </li>
                     <li class="nav-item pl-3">
                         <a class="nav-link" href="#">Gallery</a>
@@ -60,93 +62,100 @@
         
         </nav>
         <div class="container-fluid m-auto ">
-            <!-- slider -->
-            <div class="row bb-slider ">
-                
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                   
-                    <!-- image slider -->
-                    <div id ="slides" class="carousel slide carousel-fade" data-ride="carousel">
-                        <!-- <ul class="carousel-indicators">
-                            <li data-target="#slides" data-slide-to="0" class="active"></li>
-                            <li data-target="#slides" data-slide-to="1" ></li>
-                            
-                        </ul> -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item bg-1 active">
-                                <img src ="images/home-slider/bhimad1.jpg"  class="d-block w-100" alt="">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h3>Welcome To Bhimad</h3>
-                                    <p>“Life is full of beauty. Notice it.</p>
-                                    <button type="button" class="btn btn-outline-light btn-lg mb-2 mb-md-0 ">View More</button>
-                                    
-                                    
-                                </div>
-                            </div>
-
-                            <div class="carousel-item bg-1">
-                                <img src ="images/home-slider/2.jpg" class="d-block w-100" alt="">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h3>Back to The Nature</h3>
-                                    <p>The Earth has music for those who listen.</p>
-                                    <button type="button" class="btn btn-outline-light btn-lg mb-2 mb-md-0 ">View More</button>
-                                    
-                                    
-                                </div>
-                            </div>
-                        
-                        </div>
-                        
-
-                        <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-
-
-                    </div>
-                </div>            
-            </div>
-            <!-- End Slider -->
-
+           
+           
             <!-- search box -->
-            <div class="bb-searchbox">
+            <div class="bb-business-search-filter bb-business ">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8">
-                        <form class="card card-sm">
+                        <form class="card-sm">
                             <p class="h1 text-center">
-                                May I help you?
+                                Discover Your Needs
                             </p>
                             <div class="card-body row no-gutters align-items-center">
-                               
+                                
                                 <div class="col">
-                                    <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Namaste! Search for your destination here...">
+                                    <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Namaste! Search for your business...">
                                 </div>
                                 <!--end of col-->
                                 <div class="col-auto">
                                     <button class="btn btn-lg btn-success" type="submit"><i class="fas fa-search"></i></button>
                                 </div>
                                 <!--end of col-->
-                               
-                            </div>
-                            <div class="col-auto">
-                                <p class="text-search h5"> #viewtower #beautiful #riverside #camping #banks #atms #loddges #hotels #wardoffice #policestation #hospitals </p>
+                                
                             </div>
                         </form>
+                        
+                        
+                        <h5 class="mt-3">Filter by Tags </h5>
+
+
+
+                        <form>
+                            <div class="form-inline mb-3">
+                                <div class="form-check form-check-inline ">
+                                    <input type="checkbox" class="form-check-input" id="featured">
+                                    <label class="form-check-label" for="featured">Featured</label>
+                                    </div>
+    
+                                    <div class="form-check form-check-inline ">
+                                        <input type="checkbox" class="form-check-input" id="sales">
+                                        <label class="form-check-label" for="sales">Sales</label>
+                                    </div>
+    
+                                    <div class="form-check form-check-inline">
+                                        <input type="checkbox" class="form-check-input" id="policestation">
+                                        <label class="form-check-label" for="policestation">Police Station</label>
+                                    </div>
+    
+                                    <div class="form-check form-check-inline">
+                                        <input type="checkbox" class="form-check-input" id="wardoffice">
+                                        <label class="form-check-label" for="wardoffice">Ward Office</label>
+                                    </div>
+    
+                                    <div class="form-check form-check-inline">
+                                        <input type="checkbox" class="form-check-input" id="municiaplity">
+                                        <label class="form-check-label" for="municiaplity">Municiaplity Office</label>
+                                    </div>
+    
+                                    <div class="form-check form-check-inline">
+                                    <input type="checkbox" class="form-check-input" id="hotels">
+                                    <label class="form-check-label" for="hotels">Hotels</label>
+                                    </div>
+    
+                                    <div class="form-check form-check-inline">
+                                    <input type="checkbox" class="form-check-input" id="bank">
+                                    <label class="form-check-label" for="bank">Bank</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                    <input type="checkbox" class="form-check-input" id="hospital">
+                                    <label class="form-check-label" for="hospital">Hospitals</label>
+                                    </div>
+    
+                            </div>
+
+                            <div class="float-right mt-3">      
+                                <button type="submit" class="btn btn-secondary">Filter Results</button>
+                                <button type="submit" class="btn btn-secondary">Reset All</button>
+                            </div>
+                        
+                        </form>
+            
+                    
                     </div>
                     <!--end of col-->
                 </div>
             </div>
-       
+    
 
-            <!-- featured business starts -->         
-            
+
+        </div>
+
+
+        <hr class="light">
+        <div class="container-fluid  business-listing mt-3">
             <div id="featured-business">
-                <h5 class="section-title text-center h1 mt-0 mb-5">Featured Business</h5>
+                <h5 class="section-title text-center h1 mt-5 mb-5">Services/Business</h5>
                 <div class="row">
                     <!-- Featured business -->
                     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -212,13 +221,8 @@
                                                         <i class="fab fa-instagram"></i>
                                                     </a>
                                                 </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                        <i class="fab fa-youtube"></i>
-                                                    </a>
-                                                </li>
                                             </ul>
-                                            <a href="" class="btn btn-outline-success">View More</a>
+                                            <a href="business_1.html" class="btn btn-outline-success">View More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -374,7 +378,7 @@
                                                     </a>
                                                 </li>
                                             </ul>
-                                            <a href="" class="btn btn-outline-success">View More</a>
+                                            <a class="btn btn-outline-success">View More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -452,7 +456,7 @@
                                                     </a>
                                                 </li>
                                             </ul>
-                                            <a href="" class="btn btn-outline-success">View More</a>
+                                            <a class="btn btn-outline-success">View More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -525,7 +529,7 @@
                                                     </a>
                                                 </li>
                                             </ul>
-                                            <a href="" class="btn btn-outline-success">View More</a>
+                                            <a class="btn btn-outline-success">View More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -598,7 +602,7 @@
                                                     </a>
                                                 </li>
                                             </ul>
-                                            <a href="" class="btn btn-outline-success">View More</a>
+                                            <a class="btn btn-outline-success">View More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -607,249 +611,13 @@
                     </div>
                     <!-- ./Business  -->
                 
-
+    
                 </div>
             </div>
-              
-            <!-- featured business ends -->
-
-
-            
-
-
-
-
-            <!-- Bhimad top Destination -->
-
-            <div class="top-dest">
-                <h5 class="section-title text-center h1 mt-5 mb-5">Things to do in Bhimad</h5>
-                <div class="row">
-                    <!-- one col  -->
-                    <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
-                        <div class="card">
-                            <div class="card-img-wrapper">
-                            <img class="card-img-top" src="images/cave/cave1.jpg" alt="cave1">
-                            </div>
-                            <div class="card-body">
-                            <h5 class="card-title">Siddha Gufa(cave)</h5>
-                            <div class="card-content">
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural</p>
-                                <a href="#" class="btn btn-outline-success">Read more</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                          
-                    <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
-                        <div class="card">
-                            <div class="card-img-wrapper">
-                            <img class="card-img-top" src="images/cave/temple1.jpg" alt="cave1">
-                            </div>
-                            <div class="card-body">
-                            <h5 class="card-title">Bhimad Temple</h5>
-                            <div class="card-content">
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural</p>
-                                <a href="#" class="btn btn-outline-success">Read more</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
-                        <div class="card">
-                            <div class="card-img-wrapper">
-                            <img class="card-img-top" src="images/cave/set1.jpg" alt="cave1">
-                            </div>
-                            <div class="card-body">
-                            <h5 class="card-title">Seti River</h5>
-                            <div class="card-content">
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural</p>
-                                <a href="#" class="btn btn-outline-success">Read more</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
-                        <div class="card">
-                            <div class="card-img-wrapper">
-                            <img class="card-img-top" src="images/cave/viewtower1.jpg" alt="cave1">
-                            </div>
-                            <div class="card-body">
-                            <h5 class="card-title">View Tower</h5>
-                            <div class="card-content">
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural</p>
-                                <a href="#" class="btn btn-outline-success">Read more</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
-                        <div class="card">
-                            <div class="card-img-wrapper">
-                            <img class="card-img-top" src="images/cave/thula1.jpg" alt="cave1">
-                            </div>
-                            <div class="card-body">
-                            <h5 class="card-title">Dhulayekadashi</h5>
-                            <div class="card-content">
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural</p>
-                                <a href="#" class="btn btn-outline-success">Read more</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
-                        <div class="card">
-                            <div class="card-img-wrapper">
-                            <img class="card-img-top" src="images/cave/trek1.jpg" alt="cave1">
-                            </div>
-                            <div class="card-body">
-                            <h5 class="card-title">Trek to Local Village</h5>
-                            <div class="card-content">
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural</p>
-                                <a href="#" class="btn btn-outline-success">Read more</a>
-                            </div>
-                            </div>
-                        </div>
-                    </div> 
-                   
-                </div>
-                <!-- row gird -->
-
-            </div>
-            <!-- Bhimad Top Destination -->
-
-            <!-- news and event section -->
-            <div class="new-event">
-                <h5 class="section-title text-center h1 mt-5 mb-5">News and Events</h5>
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-4 col-xs-12 mb-4">
-                        <div class="card" >
-                            <div class="image-box">
-                                <img src="images/news/public1.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Public Awareness program</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-outline-success">Read More</a>
-                            </div>
-                          </div>
-
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-12 mb-4">
-                        <div class="card" >
-                            <div class="image-box">
-                                <img src="images/news/football.jpg" class="card-img-top" alt="...">
-                            </div>
-                                <div class="card-body">
-                              <h5 class="card-title">Football Tournament</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-outline-success">Read More</a>
-                            </div>
-                          </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-12 mb-4">
-                        <div class="card" >
-                            <div class="image-box">                        
-                            <img src="images/news/fest1.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Bhimad Mahotsav</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-outline-success">Read More</a>
-                            </div>
-                          </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-12 mb-4">
-                        <div class="card" >
-                            <div class="image-box">
-                            <img src="images/news/volley.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Bhimad Tops Domestic volleyball Tournanment</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-outline-success">Read More</a>
-                            </div>
-                          </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-12 mb-4">
-                        <div class="card" >
-                            <div class="image-box">
-                            <img src="images/news/cultural1.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Cultural Dance</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-outline-success">Read More</a>
-                            </div>
-                          </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-12 mb-4">
-                        <div class="card" >
-                            <div class="image-box">
-                            <img src="images/news/volley.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Bhimad Tops Domestic volleyball Tournanment</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-outline-success">Read More</a>
-                            </div>
-                          </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-12 mb-4">
-                        <div class="card" >
-                            <div class="image-box">
-                            <img src="images/news/cultural1.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Cultural Dance</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-outline-success">Read More</a>
-                            </div>
-                          </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-12 mb-4">
-                        <div class="card" >
-                            <div class="image-box">                        
-                            <img src="images/news/fest1.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                              <h5 class="card-title">Bhimad Mahotsav</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-outline-success">Read More</a>
-                            </div>
-                          </div>
-
-                    </div>
-
-                    
-
-                </div>
-                <!-- row grid ends -->
-
-            </div>
-
-
-            
-
-
+    
         </div>
 
+        
 
         <div class="bb-getstart">
             <div class="jumbotron m-0 text-center">
@@ -928,6 +696,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     
-    <script src="js/script.js"></script>
+    <script src="js/ds-js.js"></script>
     
 </html>

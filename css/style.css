@@ -460,7 +460,7 @@ footer a:hover{
 
 
 /* background */
-.bb-news, .bb-business, .bb-destinations{
+.bb-news, .bb-business, .bb-destinations, .bb-contact{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -483,7 +483,14 @@ footer a:hover{
 }
 
 
+.bb-contact{
+  background-image: url("../images/static_img/rsz_1img_8654.jpg");
+  
+}
 
+.bb-contact .container-fluid{
+  max-width: 700px;
+}
 
 
 
@@ -1137,3 +1144,25 @@ img {
   height: 100%;
   border: 0;
 }
+
+.bb-contact{
+  color: #007b5e
+}
+
+
+/* hide arrow */
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* End Hide arrow */

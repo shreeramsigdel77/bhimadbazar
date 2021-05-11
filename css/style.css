@@ -1250,12 +1250,19 @@ footer ul{
   width: 100%;
 }
 
+@media (max-width: 767.98px){
+  footer .input-group-lg input{
+    min-width: 150px!important;
+  }
+}
+
+
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 
   footer .input-group-lg input{
-    width: 126px !important;
+    
       border-radius: .3rem !important;
       margin-bottom: 5px !important;
   }
@@ -1266,6 +1273,7 @@ footer ul{
   footer .input-group-lg button{
     border-radius: .3rem !important;
     float:right !important;
+    width: 100% !important;
   }
 
  }

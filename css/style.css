@@ -460,7 +460,7 @@ footer a:hover{
 
 
 /* background */
-.bb-news, .bb-business, .bb-destinations, .bb-contact{
+.bb-news, .bb-business, .bb-destinations, .bb-contact, .bb-phonebook{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -486,6 +486,10 @@ footer a:hover{
 .bb-contact{
   background-image: url("../images/static_img/rsz_1img_8654.jpg");
   
+}
+
+.bb-phonebook{
+  background-image: url("../images/static_img/book.jpg");
 }
 
 .bb-contact .container-fluid{
@@ -1166,3 +1170,68 @@ input[type=number] {
 }
 
 /* End Hide arrow */
+
+
+/* table grid */
+
+
+
+/* start phone book */
+.phone-book .bb-notebook .fas , .phone-book .bb-notebook .far{
+  font-weight: 1000;
+    font-size: 40px;
+    color: #003e16;
+
+}
+
+.phone-book .bb-notebook tr{
+  border-bottom:1px solid #528664;
+}
+.phone-book .bb-notebook .card-title{
+color: #003e16;
+}
+
+.phone-book .bb-notebook {
+  display: inline-block;
+    display: table-cell;
+    margin: 0 auto;
+    position: relative;
+    background-color: #3f864b;
+    background: linear-gradient(175deg, #97a290, #4da74b);
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 0px 10px #4e4949;
+    border-top: 1px solid #000000;
+}
+
+.phone-book  .bb-notebook:after {
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    left: 0px;
+    height: 4px;
+    width: 100%;
+    background-size: 3px 1px;
+    background-image: -webkit-radial-gradient(40% 100%, circle, transparent 20%, #b3c5b3 35%);
+    background-image: -moz-radial-gradient(40% 100%, circle, transparent 20%, #b3c5b3 35%);
+    background-image: -ms-radial-gradient(40% 100%, circle, transparent 20%, #b3c5b3 35%);
+    background-image: -o-radial-gradient(40% 100%, circle, transparent 20%, #b3c5b3 35%);
+    background-image: radial-gradient(40% 100%, circle, transparent 20%, #b3c5b3 35%);
+}
+
+.phone-book  .bb-notebook:before{
+    position: absolute;
+    content: '';
+    top: -5px;
+    left: 0;
+    height: 10px;
+    width: 99%;
+    background-size: 9px 12px;
+    background-image: -webkit-radial-gradient(5% 40%, circle, transparent 70%, #555 20%);
+    background-image: -moz-radial-gradient(5% 40%, circle, transparent 70%, #555 20%);
+    background-image: -ms-radial-gradient(5% 40%, circle, transparent 70%, #555 20%);
+    background-image: -o-radial-gradient(5% 40%, circle, transparent 70%, #555 20%);
+    background-image: radial-gradient(circle at 5% 40%, transparent 70%, #555 20%);
+}
+
+/* end phone book  */

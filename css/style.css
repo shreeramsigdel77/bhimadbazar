@@ -1234,4 +1234,41 @@ color: #003e16;
     background-image: radial-gradient(circle at 5% 40%, transparent 70%, #555 20%);
 }
 
+
 /* end phone book  */
+
+
+
+
+/* pagination */
+.bb-pagination a.page-link{
+  color: #007b5e;
+}
+
+footer ul{
+  text-align: center;
+  width: 100%;
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+  footer .input-group-lg input{
+    width: 126px !important;
+      border-radius: .3rem !important;
+      margin-bottom: 5px !important;
+  }
+  footer .input-group-lg .input-group-append{
+    width: 100%;
+    display: block;
+  }
+  footer .input-group-lg button{
+    border-radius: .3rem !important;
+    float:right !important;
+  }
+
+ }
+
+
+

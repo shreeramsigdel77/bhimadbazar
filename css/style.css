@@ -1180,7 +1180,7 @@ input[type=number] {
 .phone-book .bb-notebook .fas , .phone-book .bb-notebook .far{
   font-weight: 1000;
     font-size: 40px;
-    color: #003e16;
+    color: #49845e;
 
 }
 
@@ -1196,7 +1196,7 @@ color: #003e16;
     display: table-cell;
     margin: 0 auto;
     position: relative;
-    background-color: #c6d1c8;
+    background-color: #ffffff;
     /* background: linear-gradient(175deg, #97a290, #4da74b); */
     width: 100%;
     height: 100%;

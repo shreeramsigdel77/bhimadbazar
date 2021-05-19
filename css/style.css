@@ -155,7 +155,19 @@ body,html{
     text-transform: uppercase;
 }
 
+/* equal height */
+/* .row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+} */
 
+#featured-business .image-flip{
+  height: 100%;
+}
 
 #featured-business .image-flip:hover .backside,
 #featured-business .image-flip.hover .backside {
@@ -185,6 +197,8 @@ body,html{
     -ms-transform-style: preserve-3d;
     transition: 1s;
     transform-style: preserve-3d;
+    height: 100%;
+    
     
 }
 

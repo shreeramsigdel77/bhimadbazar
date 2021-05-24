@@ -286,7 +286,10 @@ body,html{
 
 }
 
-
+#featured-business .frontside .card p:first-child{
+  max-width: 380px;
+  max-height: 255px;
+}
 
 #featured-business .frontside .card,
 #featured-business .backside .card {

@@ -287,9 +287,9 @@ body,html{
 }
 
 #featured-business .frontside .card .card-body p:first-child{
-  max-width: 277px;
+  max-width: 377px;
   max-height: 230px;
-  margin-inline: auto;
+  margin: auto;
   height: 100%;
 }
 

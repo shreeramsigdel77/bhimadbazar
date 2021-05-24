@@ -287,8 +287,10 @@ body,html{
 }
 
 #featured-business .frontside .card .card-body p:first-child{
-  max-width: 380px;
-  max-height: 255px;
+  max-width: 277px;
+  max-height: 230px;
+  margin-inline: auto;
+  height: 100%;
 }
 
 #featured-business .frontside .card,
@@ -308,9 +310,9 @@ body,html{
 }
 
 #featured-business .frontside .card .card-body img {
-    max-width: 380px;
-    max-height: 255px;
-    width: 100%;
+    /* max-width: 380px;
+    max-height: 255px; */
+    /* width: 100%; */
     height: 100%;
     /* border-radius: 50%; */
 }

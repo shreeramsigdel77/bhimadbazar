@@ -4,7 +4,11 @@ body,html{
     margin: 0;
     padding: 0;
     padding-top: 3rem;
-    background: #dcf6f7 !important;
+    background: #dcf6f769 !important;
+    /* background: url("../images/static_img/palm-leaf.png")#dcf6f7;
+    background-blend-mode: luminosity; */
+    /* background-repeat: repeat; */
+    
     }
 
 
@@ -145,6 +149,8 @@ body,html{
     border-color: #007b5e;
     position: absolute;
     bottom: 20px !important;
+    right: 45%;
+    left: 45%;
 }
 
 

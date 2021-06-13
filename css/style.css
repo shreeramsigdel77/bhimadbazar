@@ -1318,6 +1318,18 @@ footer ul{
  }
 
 
- /* joblisting */
+ /* services listing contents */
 
- 
+ .business-listing .img-profile{
+   max-width: 250px;
+   max-height: 250px;
+   /* display: contents; */
+
+
+ }
+
+ .business-listing .img-profile img{
+   width: fit-content;
+
+
+ }
